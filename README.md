@@ -2,8 +2,8 @@
 
 | Metadato | Valor |
 | :--- | :--- |
-| **Versión** | `v1.0.0` |
-| **Fecha de corte** | 2026-11-02 |
+| **Versión** | `v1.1.0` |
+| **Fecha de corte** | 2026-11-03 |
 | **Plataforma activa** | **Google Antigravity** / **Gemini CLI** / **Claude** |
 | **Estado** | Activa en producción local |
 

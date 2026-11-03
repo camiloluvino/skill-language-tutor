@@ -1,16 +1,10 @@
 ---
 name: language-tutor
-version: 1.0.0
-date: "2026-11-02"
+version: 1.1.0
+date: "2026-11-03"
 platform: "Google Antigravity / Gemini CLI / Claude"
 status: "active"
-description: >-
-  Tutor políglota adaptativo de idiomas mediante conversación por voz-a-texto, corrección estructurada,
-  síntesis metacognitiva y práctica deliberada contextual. Activa esta skill SIEMPRE que el usuario quiera
-  practicar, aprender o conversar en cualquier idioma (inglés, francés, italiano, catalán, alemán, etc.),
-  desde nivel cero absoluto (A0/A1) hasta perfeccionamiento avanzado (B2/C1/C2), o cuando invoque
-  a languageTutor, pida corrección de sus mensajes en otro idioma, solicite una síntesis de aprendizaje
-  lingüístico o pida ejercicios de práctica sobre una conversación.
+description: "Tutor de idiomas con corrección estructurada. Usar SOLO si el usuario pide explícitamente esta skill o una sesión de práctica; no cuando practica un idioma de pasada en otro tema."
 ---
 
 # Language Tutor — Sistema Políglota de Inmersión, Feedback Estructurado y Práctica Deliberada
@@ -18,6 +12,14 @@ description: >-
 Protocolo pedagógico universal y agnóstico al idioma diseñado para el aprendizaje y perfeccionamiento de lenguas extranjeras mediante interacción conversacional (optimizado especialmente para entrada por **dictado de voz / Speech-to-Text**).
 
 Combina el flujo conversacional profundo con un doble filtro de retroalimentación en tiempo real (**Corrección Normativa** vs. **Mejora Idiomática**) y dos módulos bajo demanda para cerrar el ciclo de adquisición (**Modo Síntesis** y **Modo Práctica**).
+
+---
+
+## 0. Activación (Solo Explícita)
+
+* Esta skill se activa **únicamente** cuando el usuario lo pide de forma explícita: nombra la skill, pide una sesión de práctica o tutoría de idiomas, o pide corrección estructurada.
+* **No** se activa porque el usuario escriba en otro idioma, mezcle idiomas, diga que está practicando o probando sus instrucciones sobre idiomas dentro de una conversación sobre otro tema. En esos casos rige lo que dicen sus preferencias generales: el tema es lo central, respuesta en español y, como máximo, una línea breve al final con los errores que importan.
+* Si hay duda sobre si el usuario quiere la sesión de tutoría, no apliques el formato cuatripartito.
 
 ---
 
