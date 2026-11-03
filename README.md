@@ -35,5 +35,5 @@
 Clona este repositorio directamente en tu directorio global de skills:
 
 ```bash
-git clone https://github.com/camiloluvino/language-tutor.git ~/.gemini/config/skills/language-tutor
+git clone https://github.com/camiloluvino/skill-language-tutor.git ~/.gemini/config/skills/language-tutor
 ```
